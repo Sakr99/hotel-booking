@@ -1,0 +1,43 @@
+@import "tailwindcss";
+@plugin "daisyui";
+:root {
+    --bg-main :#ffffff;
+    --bg-coler :#002B56;
+}
+
+
+body{
+    background-color: var(--bg-main);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    height: 1000px;
+    font-family: montserrat;
+}
+.Find-button{
+    background-color: var(--bg-coler);
+}
+
+.Find-button:hover{
+    background-color: var(--bg-main);
+    color: var(--bg-coler);
+}
+.Subscribe{
+    background-color: #E7F7FE;
+    color: #002B56;
+    font-weight:bold;
+}
+.cards-header{
+    color: var(--bg-coler);
+}
+.mask{
+    background-color: var(--bg-coler);
+
+}
+.category{
+    background-color: #E7F7FE;
+}
+
+.CountriesOption{
+    background-image: url(./Assets/imageBG.jpg);
+}
